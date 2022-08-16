@@ -22,6 +22,7 @@ yarn dev
 ```bash
 npx localtunnel --port 3003
 ```
-6. Copie a URL que o `localtunnel` vai exibir logo após a execução do comando acima. Ela será usada posteriormente.
+6. Copie a URL que o `localtunnel` vai exibir logo após a execução do comando acima. Similar a essa abaixo.
 > your url is: https://random-url-123-4-5-6.loca.lt
-
+7. Define a variável `server` em public/malware.js:1.
+> const server = 'https://random-url-123-4-5-6.loca.lt';
