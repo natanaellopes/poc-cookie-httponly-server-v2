@@ -12,6 +12,8 @@ app.use(cors({credentials: true, origin: (_origin, callback) => {
 
 app.use(cookieParser());
 
+app.use(express.static('public'))
+
 app.get('/', (req, res) => {
   const cookies = req.headers.cookie;
 
