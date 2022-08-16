@@ -14,9 +14,9 @@ cd poc-cookie-httponly-server-v2
 ```bash
 yarn 
 ```
-4. Rode o projeto usando o `live-server`
+1. Rode o projeto
 ```bash
-npx live-server
+yarn dev
 ```
 5. Para simular que estamos em outro domínio, utilize o para rodar num local remoto
 ```bash
